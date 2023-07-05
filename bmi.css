@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:green;
+
+}
+span{
+    color:red;
+}
+
+.container{
+position: absolute;
+top:45%;
+left: 50%;
+background-color: black;
+color: white;
+padding:15px;
+border-radius: 5px;
+transform: translate(-50%,-50%);
+
+}
+input{
+    outline: none;
+    border: none;
+    padding: 4px;
+
+}
+button{
+    color:white;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    
+    cursor: pointer;
+}
